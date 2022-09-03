@@ -50,7 +50,7 @@ public class Main {
         };
 
         System.out.println("WELCOME TO THE CIRCUS!\n");
-        printMenu();
+        //printMenu();
 
         boolean playing = true;
         while(playing){
@@ -64,7 +64,7 @@ public class Main {
             switch (input){
                 case 1:
                     //employee last names in alphabetical order
-                    System.out.println("\nSAY HELLO TO THE POST-AP CIRCUS!");
+                    System.out.println("\nSAY HELLO TO THE JAVA CIRCUS!");
                     printNamesAlphabetically(employeeQueue, alphabeticalComparator);
 
                     System.out.println("\n==============================================================================");
